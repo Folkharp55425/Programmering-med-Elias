@@ -1,0 +1,12 @@
+while True:
+
+    if correct == True:
+        Restart()
+
+    elif correct == False:
+        continue
+
+
+correct = True
+
+correct = False
