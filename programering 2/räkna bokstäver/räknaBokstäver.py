@@ -2,7 +2,7 @@ def separate():
 
     dictionary = {}
 
-    WhatToCount = input("Enter text to count: ") 
+    WhatToCount = input("Enter text to count: ").replace(" ", "")
 
     for bokstav in WhatToCount:
         if bokstav in dictionary:
